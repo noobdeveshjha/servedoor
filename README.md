@@ -1,36 +1,46 @@
-# Servedoor - Complete Swiggy Clone (Full Stack)
+# Servedoor - Complete Swiggy Clone (Full Features)
 
-A complete food delivery app like Swiggy with:
-- Customer App (React Native)
+**All requested features implemented!**
+
+## ✅ Completed Features
+
+### User Registration & Login
+- Secure OTP via Fast2SMS
+- Profile management with multiple addresses
+
+### Restaurant & Menu Browsing
+- Advanced Veg / Non-Veg / Both filters
+- Search for restaurants & dishes
+- Real-time availability
+
+### Smart Shopping Cart
+- Add/Remove/Quantity
+- Real-time price calculation
+- Single restaurant per order (enforced)
+
+### Order Management
+- Cashfree / Razorpay demo
+- COD + Wallet payment
+- Coupon code support (demo: SAVE20)
+- Real-time order tracking (Map + Socket.io)
+- Order history
+- Rating & Review system
+
+### Digital Wallet
+- Add money
+- Use for payment
+- Transaction history
+
+### Additional
+- Google Maps live tracking
 - Restaurant Owner Dashboard
 - Admin Panel
-- Backend (Node.js + Express)
-- Map Tracking
-- Payment (Razorpay)
-- Real-time updates
-
-## Features
-- Phone OTP Login
-- Restaurant browsing + Search
-- Menu + Cart (Zustand)
-- Order Placement + Payment
-- Live Map Tracking
-- Restaurant Owner Panel
-- Admin Dashboard
+- Backend with Node.js + Socket.io
 
 ## Tech Stack
-- Frontend: React Native + Expo
-- Backend: Node.js + Express + MongoDB
-- Real-time: Socket.io
-- Maps: react-native-maps
-- Payment: Razorpay
+React Native + Expo | Node.js + Express | Socket.io | Zustand
 
-## Setup
-1. Clone repo
-2. `cd servedoor`
-3. `npm install` (for mobile)
-4. `cd backend && npm install`
-5. Run backend: `node server.js`
-6. Run app: `npx expo start`
+## How to Run
+See INSTALL.md
 
-**Note:** This is a full MVP. Add your own API keys for maps, Razorpay, etc.
+**Everything is ready for demo and further development!**
