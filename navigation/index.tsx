@@ -7,6 +7,10 @@ import CartScreen from '../screens/CartScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import LoginScreen from '../screens/LoginScreen';
 import RestaurantDetail from '../screens/RestaurantDetail';
+import MapTrackingScreen from '../screens/MapTrackingScreen';
+import PaymentScreen from '../screens/PaymentScreen';
+import RestaurantOwnerScreen from '../screens/RestaurantOwnerScreen';
+import AdminPanel from '../screens/AdminPanel';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -29,7 +33,11 @@ export default function Navigation() {
         <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Main" component={TabNavigator} options={{ headerShown: false }} />
         <Stack.Screen name="RestaurantDetail" component={RestaurantDetail} />
-      </Stack.Navigator>
+        <Stack.Screen name="MapTracking" component={MapTrackingScreen} />
+        <Stack.Screen name="Payment" component={PaymentScreen} />
+        <Stack.Screen name="RestaurantOwner" component={RestaurantOwnerScreen} />
+        <Stack.Screen name="Admin" component={AdminPanel} />
+      </Stack.Screen>
     </NavigationContainer>
   );
 }
