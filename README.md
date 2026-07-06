@@ -1,22 +1,37 @@
-# Servedoor - Multi-App Food Delivery Platform
+# Servedoor - Complete Multi-App Food Delivery Platform
 
-## Architecture (Corrected as per your request)
+## ✅ Final Clean Structure
 
-- **Customer App** (React Native + Expo) - Main user app
-- **Restaurant Owner App** (Separate React Native app)
-- **Delivery Partner App** (Separate React Native app)
-- **Admin Panel** (Web - React/Next.js website)
+All extra/unused code from root has been cleaned.
 
-All are separate as requested.
+### Apps (Separate as requested):
 
-## Current Status
-- Customer App: Fully featured
-- Backend: Complete with MongoDB, APIs, Socket.io
-- Other apps: Basic structure created (expand as needed)
+| App                  | Purpose                    | Folder             | Status      |
+|----------------------|----------------------------|--------------------|-------------|
+| **Customer App**     | Users order food           | `customer-app/`    | ✅ Complete |
+| **Restaurant App**   | Restaurant owners          | `restaurant-app/`  | Basic       |
+| **Delivery App**     | Delivery partners          | `delivery-app/`    | Basic       |
+| **Admin Panel**      | Admin dashboard (Web)      | `admin-panel/`     | Basic Web   |
 
-See folders:
-- `customer-app/`
-- `restaurant-app/`
-- `delivery-app/`
-- `admin-panel/`
-- `backend/`
+### Backend
+- `backend/` → Full Node.js + MongoDB + Socket.io (Complete)
+
+## How to Use
+
+**Customer App (Main App):**
+```bash
+cd customer-app
+npm install
+npx expo start
+```
+
+**Backend:**
+```bash
+cd backend
+npm install
+node server.js
+```
+
+**Note:** Old root files have been cleaned. Use the folders above.
+
+Everything is now properly organized with no unused code left in root.

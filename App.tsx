@@ -1,12 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import Navigation from './navigation';
-
-export default function App() {
-  return (
-    <SafeAreaProvider>
-      <Navigation />
-      <StatusBar style="auto" />
-    </SafeAreaProvider>
-  );
-}
+// This file has been moved to customer-app/App.tsx
+// Please use the customer-app/ folder for the Customer App
+console.log('Please run from customer-app/ folder');
